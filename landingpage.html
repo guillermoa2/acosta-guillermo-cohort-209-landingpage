@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingPage</title>
+    <link rel="stylesheet" href="landingpage.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    
+
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+<div id="LandingPage" class="container-fluid">
+  
+  <div class="row">
+
+      <header id="header" class="col-12">
+        <img id="header-img" src="https://www.logodesign.net/logo/foods-in-shopping-bad-going-fast-with-thumbs-up-6048ld.png" alt="Grocery logo" height="150"/>
+        <h1>Super Market</h1>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#form-div">Features</a></li> <!--href="#" to work correctly, #form-div is for Product Landing Page Test--->
+            <li><a class="nav-link" href="#features">Video</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <body>
+        
+        <div id="form-div">
+            <h1>Sign Up for Extra Savings!</h1>
+
+            <form  id="form" class="col-12" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" name="email" type="email" placeholder="Enter your email" required>
+            <input id="submit" type="submit" value="Sign up" >            
+        </div>
+
+          
+        </form>
+        
+        <div id="features" class=" col-12">
+            <div class="container">
+
+                <div class="feature" id="mobile-payment">
+                    <div class="icon">
+                        <i class="fa fa-mobile"></i>
+                    </div>
+                    <div class="content">
+                        <h3>Mobile Payments</h3>
+                        <p>Our customers have a variety of payment options available. We offer Apple, Google and Android payment options for a seamless user experience.</p>                    
+                    </div>
+                </div>
+                
+                <div class="feature" id="fast-delivery">
+                  <div class="icon">
+                      <i class="fa fa-truck"></i>
+                  </div>
+                  <div class="content">
+                      <h3>Fast-delivery</h3>
+                      <p>We offer our amazing customers the option for delivery. These can be shipped to your own house in 2 days guaranteed. We also offer same day shipping through our partnership with Instacart. Fees may be included</p>
+                  </div>                   
+                </div>
+            
+                <div class="feature" id="Order-tracking">
+                  <div class="icon">
+                      <i class="fa fa-tasks"></i>
+                  </div>
+                  <div class="content">
+                      <h3>Order Tracking</h3>
+                      <p>Customers can know when their order is being fulfilled and will be ready. This gives our customer the flexibility to be prepared and know which items may be out of stock or unavailable ahead of time   </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+
+       <div id="how-it-works" class="col-12">
+            <iframe id="video" width="100%" height="429" src="https://www.youtube.com/embed/-f73QTQQd7A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+       
+       <div id="pricing">
+            <div class="service" id="in-store">
+                <h3>In store</h3>
+                <ul>
+                  <li>Shop at our physical location.</li>
+                  <li>Pick your produce, bakery, and desired weight and size of product.</li>
+                  <li>Get to meet our friendly associates</li>
+                  <li>be immersed by our fun atmosphere.</li>
+                </ul>
+            </div>
+
+            <div class="service" id="pick-up">
+                <h3>Pick up</h3>
+                <ul>
+                  <li>Cut down grocery shopping time significantly</li>
+                  <li>Pick your produce, bakery, and desired weight and size of product.</li>
+                  <li>Any last minute items are accessible</li>
+                </ul>                
+            </div>
+
+            <div class="service" id="delivery">
+                <h3>Delivery</h3>
+                <ul>
+                  <li>Spend the least amount of time shopping</li>
+                  <li>more time to enjoy your groceries</li>
+                  <li>Delivery is free for orders over $80</li>
+                </ul>                
+            </div>            
+       
+        </div>
+        
+
+
+      </body>
+  
+  </div>
+    
+</div>
+</body>
+</html>

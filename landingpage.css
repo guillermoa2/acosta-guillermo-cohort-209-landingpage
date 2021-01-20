@@ -1,0 +1,72 @@
+* {
+    font: white;
+    background-color: orange;
+  }
+  
+  i, .fa-3x {
+    color: grey;
+    font-size: 2em;
+  }
+
+#header {
+    display: grid;
+    justify-content: center;
+    position:  fixed;
+    top: 0;
+    width: 100%;
+}
+
+body {
+    margin-top: 300px;
+}
+
+#form-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#features i{
+    display: flex;
+    flex-direction: column;
+    /* border: blue solid 2px; */
+    font-size: 5em;
+}
+
+.feature {
+    display: flex;
+    /* border: red solid 2px; */
+    margin-bottom: 30px;
+}
+
+.content h3, .content p{
+    margin: 0px 0px 0px 30px;
+}
+
+.fa-mobile {
+    margin-left: 25px;
+    width: 50px;
+}
+
+#pricing {
+    display: flex;
+    justify-content: center;
+}
+
+#pricing h3 {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    * {
+      background-color: lightblue;
+    }
+    #pricing {
+        display: inline;
+
+    }
+    #pricing h3 {
+        text-align: center;
+    }
+  }
